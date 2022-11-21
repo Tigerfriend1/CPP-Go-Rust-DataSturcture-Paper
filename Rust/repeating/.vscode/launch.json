@@ -5,11 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Rust Debug Launch",
             "type": "lldb",
             "request": "launch",
+            "name": "Rust Debug Launch",
             "program": "${workspaceRoot}/target/debug/${workspaceRootFolderName}",
-            "args": ["--file", "${workspaceRoot}/examples/test.orn"],
+            "args": [],
             "cwd": "${workspaceRoot}/target/debug/",
             "sourceLanguages": ["rust"]
         }
