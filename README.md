@@ -7,4 +7,9 @@ C++의 장점은 살리고 단점을 보완하기 위해 개발된 Go, Rust언�
 
 
 ## 실행시간 측정방법
-- vscode의 확장팩인 CodeRunner를 사용하여 실행시간을 측정한다.
+- 각 언어의 시스템시간 측정함수를 통해 실행시간을 측정한다.
+
+
+--- 
+# 구현에 참고한 사이트
+- Rust 시스템시간 측정 : https://runebook.dev/ko/docs/rust/std/time/struct.systemtime
